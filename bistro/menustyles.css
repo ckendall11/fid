@@ -1,19 +1,18 @@
 @charset "UTF-8";
 body {
-  font-family: Georgia, serif;
-  font-size: 100%;
-  line-height: 175%;
   margin: 0 15% 0;
-  background: #d2dc9d url(images/blackgoose.png) no-repeat center 100px fixed;
+  background: rgba(216, 182, 108, 0.5) url(images/blackgoose.png) no-repeat center 100px fixed;
+  .jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
 header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
-  background: url(images/rectangle.png) center top repeat-x;
   background: 
-    url(images/rectangle.png) left top repeat-y,
-    url(images/rectangle.png) right top repeat-y,
     url(images/gooseshadow.png) 90% bottom no-repeat;
   background-color: rgba(255,255,255,.5);
 }
@@ -30,25 +29,36 @@ a:visited {
 }
 a:focus, a:hover {
 	color: #ff1500;
-	background-color: #fff;
+	background-color: #ffffff71;
 }
 a:active {
 	color: #F21905;
-	background-color: #fff;
+	background-color: #ffffff71;
 }
-
 h1 {
-  font: bold 1.5em Georgia, serif;
+  font-family: "Jersey 25", sans-serif;
+  text-align: center;
   text-shadow: .05em .05em .1em lightslategray;
   color: #260801;
+  border-bottom: 3px solid #57b1dc;
 }
 h2 {
   font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: .5em;
   text-align: center;
   color: #260801;
 }
+footer {
+    border-top: 3px solid #57b1dc;
+    text-align: center;
+    padding-top: 1em;
+    }
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+    }
 dt {
   font-weight: bold;
 }
@@ -75,8 +85,10 @@ p.warning, sup {
   font-variant: small-caps;
   font-style: normal;
 }
-
 h2 + p {
   text-align: center;
   font-style: italic;
+}
+.button-container {
+    text-align: center;
 }
