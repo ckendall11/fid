@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574.36 143.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+        font-family: Papyrus-Regular, Papyrus;
+        font-size: 68.31px;
+      }
+
+      .cls-2 {
+        fill: #9e2726;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        fill: #8a181a;
+      }
+
+      .cls-4 {
+        fill: #e1d079;
+      }
+
+      .cls-5 {
+        fill: #895638;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-2" x="127.81" y="2.5" width="319.26" height="129.51" rx="21.11" ry="21.11"/>
+      <text class="cls-6" transform="translate(135.28 82.33) scale(.71 1)"><tspan x="0" y="0">Order a pizza?</tspan></text>
+      <g id="whole_pizza" data-name="whole pizza">
+        <ellipse class="cls-5" cx="161.31" cy="59.42" rx="20.25" ry="28.48"/>
+        <ellipse class="cls-4" cx="161.31" cy="59.42" rx="17.28" ry="24.31"/>
+        <ellipse class="cls-3" cx="153.64" cy="71.57" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="153.64" cy="48.17" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="163.25" cy="75.75" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="161.31" cy="44" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="164.28" cy="54.79" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="173.31" cy="61.1" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="170.34" cy="48.17" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="149.06" cy="60.24" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="156.61" cy="57.79" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="164.47" cy="65.27" rx="2.97" ry="4.17"/>
+        <ellipse class="cls-3" cx="170.34" cy="71.57" rx="2.97" ry="4.17"/>
+        <line class="cls-1" x1="161.31" y1="30.94" x2="161.31" y2="87.9"/>
+        <line class="cls-1" x1="141.07" y1="60.34" x2="181.48" y2="60.34"/>
+        <line class="cls-1" x1="147.5" y1="80.24" x2="175.74" y2="39.43"/>
+        <line class="cls-1" x1="175.23" y1="80.35" x2="146.91" y2="39.41"/>
+      </g>
+    </g>
+  </g>
+</svg>
