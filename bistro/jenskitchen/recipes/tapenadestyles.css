@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body {
+  margin: 0 15% 0;
+  background-color:#c0e7d8;
+  .jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+	font-weight: bold;  
+  color: rgb(223, 45, 45);
+}
+a:visited {
+	color: #830000;
+}
+a:focus, a:hover {
+	color: #ff1500;
+	background-color: #ffffff71;
+}
+a:active {
+	color: #F21905;
+	background-color: #ffffff71;
+}
+h1 {
+  font-family: "Jersey 25", sans-serif;
+  text-align: center;
+  text-shadow: .05em .05em .1em lightslategray;
+  color: #5C3169;
+  border-bottom: 3px solid #57b1dc;
+}
+h2 {
+  font-family: "Jersey 25", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #5C3169;
+}
+h3 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #830000;
+}
+footer {
+    border-top: 3px solid #57b1dc;
+    text-align: center;
+    padding-top: 1em;
+    }
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+    }
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+.button-container {
+    text-align: center;
+}
